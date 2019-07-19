@@ -1,6 +1,5 @@
 const fs = require('fs');
 const gulp = require('gulp');
-// const data = require('gulp-data');
 const pug = require('gulp-pug');
 const rename = require('gulp-rename');
 
