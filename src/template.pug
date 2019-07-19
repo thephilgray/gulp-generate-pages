@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+html(lang="en")
+    if template === 'template-1'
+        head
+            meta(charset="UTF-8")
+            meta(name="viewport", content="width=device-width, initial-scale=1.0")
+            meta(http-equiv="X-UA-Compatible", content="ie=edge")
+            title=title
+            style.
+                li{color:red;}
+        body
+            h1=title
+            if items
+                ul
+                    each item in items
+                        li=item
+    else
+        head
+            meta(charset="UTF-8")
+            meta(name="viewport", content="width=device-width, initial-scale=1.0")
+            meta(http-equiv="X-UA-Compatible", content="ie=edge")
+            title Title: #{title}
+            style.
+                h2{color:green;}
+        body
+            h1=title
+            if items
+                each item in items
+                    h2=item

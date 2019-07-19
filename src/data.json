@@ -1,0 +1,25 @@
+[
+  {
+    "filename": "page001",
+    "title": "First Page!",
+    "items": ["shoe", "pants", "shovel"],
+    "template": "template-1"
+  },
+  {
+    "filename": "page002",
+    "title": "Second Page....",
+    "items": ["sock", "bag", "fork"],
+    "template": "template-1"
+  },
+  {
+    "filename": "page003",
+    "title": "Third Page....",
+    "items": ["candle"],
+    "template": "template-2"
+  },
+  {
+    "filename": "page004",
+    "title": "Fourth page",
+    "template": "template-2"
+  }
+]
